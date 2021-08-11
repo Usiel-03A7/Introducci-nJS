@@ -12,4 +12,4 @@ console.log(precioProducto)
 const {precio,disponible} = producto
 
 console.log(precio)
-console.log(disponible)7
+console.log(disponible)
