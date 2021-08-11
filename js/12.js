@@ -9,7 +9,8 @@ const producto = {
 Object.freeze(producto) //no permite modificar el estado add o delete
 Object.seal(producto) //Si permite modificar propiedades existentes pero no añade ni elimina
 
-producto.imagen = 'imagen.jog'
+producto.imagen = 'imagen.jog' // use Strict pule el código para mejor preformas lo cual haría quitar ésta linea
+                               
 
 
 console.log(producto)
