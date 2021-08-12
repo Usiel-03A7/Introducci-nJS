@@ -46,19 +46,18 @@ for (let i = 0; i < carrito.length; i++) {
 console.log("while")
 let i =0;
 
-while (i<carrito.length) {
+while (i<carrito.length) { //primero revisa que la condición se cumpla para poder ejecutarse
     console.log(carrito[i].nombre)
 
     i++;
 }
 
-// do while loop
+// do while loop (se ejecuta al menos una vez aunque la condición no se cumpla)
 
 console.log("do while");
 let o=0;
 do {
     
     console.log(carrito[o].precio);
-
     o++;
 } while (o<carrito.length);
