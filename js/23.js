@@ -6,15 +6,15 @@ switch (metodoPago) {
         break;
         
     case 'Efectivo':
-        console.log('pagaste con tarjeta');
+        console.log('pagaste con efectivo');
         break;
         
     case 'cheque':
-        console.log('pagaste con tarjeta');
+        console.log('pagaste con cheque, revisaremos fondos primero');
         break;
         
-    case 'bircoin':
-        console.log('pagaste con tarjeta');
+    case 'bitcoin':
+        console.log('pagaste con bitcoin');
         break;
         default:
         console.log("aun no has pag'o")
