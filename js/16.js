@@ -1,21 +1,16 @@
 // Declaracion de la funcion
-function sumar(){
- console.log(10+10)
-    
-}
+
+// Ésta funcion se ejecuta de manera correcta
 sumar()
 
-//expersion de la funcion 
-
-const suma2 = function(){
-    console.log(3.4+63)
+function sumar() {
+    console.log(10 + 10)
 }
 
+//expersion de la funcion
+
+// Ésta funcion como primero ejecuta la orden y despues pide memoria marca error
 suma2();
-
-//IIFE
-
-(function() { 
-    console.log('Ésto es una funcion');
-})();
-console.log(cliente)
+const suma2 = function () {
+    console.log(3.4 + 63)
+}
