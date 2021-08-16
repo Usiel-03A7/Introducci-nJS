@@ -24,7 +24,7 @@ async function app() {
         // const pedidos = await descargarUltimos(); 
         // console.log(clientes)
         // console.log(pedidos)
-        const resultado = await Promise.all([  descargarNC(), descargarUltimos() ]); //arreglo de promises Promise.all
+        const resultado = await Promise.all([  descargarNC(), descargarUltimos() ]); //arreglo de promises Promise.all 
         console.log(resultado[0])
         console.log(resultado[1])
     } catch (error) {
